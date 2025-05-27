@@ -20,6 +20,7 @@ int main() {
     while (i <= Bispo) {
         printf("Cima Direita\n");
         i++;
+        //Iprime a direçao do movimento
     }
 
     printf("\n");
@@ -27,7 +28,7 @@ int main() {
     //***Movimento da Rainha***
     // Se Move em todas as direções. Vamos mover 8 casas para a Esquerda.
     int Rainha = 8;
-    int i = 1;
+    int i = 0;
     printf("Movimento da Rainha (8 casas para a Esquerda):\n");
     do {
         printf("Esquerda\n");
